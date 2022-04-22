@@ -49,6 +49,6 @@ limitations under the License.
 [vue]: https://vuejs.org
 
 [stackblitz-src]: https://developer.stackblitz.com/img/open_in_stackblitz.svg
-[stackblitz-href]: https://stackblitz.com/github/prismicio-community/optimized-dev-pinia-party/tree/latest/starterFiles
+[stackblitz-href]: https://stackblitz.com/github/prismicio-community/optimized-dev-pinia-party/tree/master/starterFiles
 
-[download]: https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fprismicio-community%2Foptimized-dev-pinia-party%2Ftree%2Flatest%2FstarterFiles
+[download]: https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fprismicio-community%2Foptimized-dev-pinia-party%2Ftree%2Fmaster%2FstarterFiles
