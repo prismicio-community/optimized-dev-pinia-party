@@ -19,9 +19,5 @@
 </template>
 
 <script setup>
-import { useClicker } from '../stores/clicker'
-
 defineProps({ factory: { type: Object, required: true } })
-
-const clicker = useClicker()
 </script>
