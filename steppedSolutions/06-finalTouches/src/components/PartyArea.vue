@@ -3,7 +3,7 @@
     <!-- Party content -->
     <h1>Pinia's Party</h1>
     <h2>{{ clicker.balance }} confetti</h2>
-    <button @click="clicker.click">
+    <button @click="onClick">
       <div class="inner">✨</div>
     </button>
     <!-- Confetti canvas -->
@@ -12,8 +12,8 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue"
-import Confetti from "js-confetti"
+import { ref, onMounted } from 'vue'
+import Confetti from 'js-confetti'
 
 import { useClicker } from '../stores/clicker'
 
@@ -35,16 +35,8 @@ onMounted(() => {
   })
 })
 
-// On action handlers
-clicker.$onAction(({ name, store }) => {
-  switch (name) {
-    case 'click':
-      addConfetti()
-      break
-
-    case 'tick':
-      addConfetti(Math.floor(Math.log10(store.confettiPerSecond + 1)))
-      break
-  }
-})
+const onClick = () => {
+  clicker.balance++
+  addConfetti()
+}
 </script>

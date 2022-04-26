@@ -5,6 +5,7 @@ export const useClicker = defineStore('clicker', {
   state: () => {
     return {
       balance: 0,
+      factoryPriceMultiplier: 1.05,
       factories: {
         partyPopper: {
           id: 'partyPopper',
