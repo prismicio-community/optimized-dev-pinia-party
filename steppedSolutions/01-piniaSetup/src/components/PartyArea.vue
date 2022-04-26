@@ -12,8 +12,8 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue"
-import Confetti from "js-confetti"
+import { ref, onMounted } from 'vue'
+import Confetti from 'js-confetti'
 
 // Setup confetti canvas
 const canvas = ref(null)
